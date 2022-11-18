@@ -59,15 +59,11 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left .float-right{
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 75%;
@@ -86,20 +82,11 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead .benefit-brand .benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
