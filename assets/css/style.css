@@ -59,14 +59,12 @@ p {
     background-position: center;
 }
 
-.float-left {
+/*Consolidated the float*/
+.float-left,
+.float-right
+ {
     float: left;
     margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
@@ -86,32 +84,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*Consolidated the benefit attributes*/
+.benefit-lead,
+.benefit-brand,
+.benefit-cost 
+ {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
+/*Consolidated the benefit attributes*/
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3
+ {
     margin-bottom: 10px;
     text-align: center;
 }
